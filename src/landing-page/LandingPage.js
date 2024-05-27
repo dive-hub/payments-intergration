@@ -1,7 +1,7 @@
 import React from 'react';
 import PayPalButton from '../paypal/PayPalButton.js';
 import '../page-styles/LandingPage.css';
-
+    
 const LandingPage = () => {
   const cart = [
     { sku: 'YOUR_PRODUCT_STOCK_KEEPING_UNIT', quantity: 'YOUR_PRODUCT_QUANTITY' }
