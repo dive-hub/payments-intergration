@@ -11,7 +11,7 @@ app.post('/my-server/create-paypal-order', async (req, res) => {
     method: 'post',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': `Bearer access_token$sandbox$9bxqb6kxs3zy54ws$8bd35152f62f2aacb4556d8837586089`
+      'Authorization': `Bearer YOUR_ACCESS_TOKEN`
     },
     body: JSON.stringify({
       intent: 'CAPTURE',

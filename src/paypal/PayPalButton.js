@@ -5,7 +5,7 @@ const PayPalButton = ({ cart }) => {
   const [paypal, setPaypal] = useState(null);
 
   useEffect(() => {
-    loadScript({ clientId: 'AasxQyMQtRiY8UUNlr-GEN0jk2qIK55wvRYu7rGPfnvfCloRoOzRnbOE9aJHI3xmptqrAu5D7fEKLLRt' })
+    loadScript({ clientId: 'YOUR_CLIENT_ID' })
       .then((paypal) => {
         setPaypal(paypal);
       })
